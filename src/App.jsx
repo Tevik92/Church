@@ -8,6 +8,7 @@ import Lamps from "./components/Lamps";
 function App() {
   return (
     <>
+      <h1>title</h1>
       <Header />
       <Lamps />
     </>

@@ -4,7 +4,7 @@ import "./Lamps.css";
 const Lamps = (props) => {
   const [isOnfirstLamp, setIsOnFirstLamp] = useState(false);
   const [isOnSecondLamp, setIsOnSecondLamp] = useState(false);
-
+  console.log(123);
   return (
     <div className="parent">
       <div
